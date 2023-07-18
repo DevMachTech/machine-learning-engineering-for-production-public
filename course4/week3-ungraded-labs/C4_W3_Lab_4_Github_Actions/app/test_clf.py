@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 def test_accuracy():
 
     # Load test data
-    with open(r"data\test_data.pkl", "rb") as file:
+    with open(r"/data/test_data.pkl", "rb") as file:
         test_data = pickle.load(file)
 
     # Unpack the tuple
